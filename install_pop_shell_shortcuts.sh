@@ -3,3 +3,5 @@ git clone https://github.com/pop-os/shell-shortcuts
 cd shell-shortcuts
 make 
 sudo make install
+cd ..
+rm -rf shell-shortcuts
