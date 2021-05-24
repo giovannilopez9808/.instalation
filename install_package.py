@@ -10,6 +10,6 @@ for package in packages:
     print("\n\n")
     print("--"*20)
     print("Instalando paquete {}".format(package))
-    os.system("apt-get install {} -y".format(package))
     print("--"*20)
     print("\n\n")
+    os.system("sudo apt-get install {} -y".format(package))

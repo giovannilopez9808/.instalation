@@ -211,8 +211,6 @@ sqlparse==0.4.1
 srsly==1.0.1
 ssh-import-id==5.10
 sympy==1.6.2
-system-service==0.3
-systemd-python==234
 tables==3.6.1
 tabulate==0.8.9
 tensorboard==1.12.2
