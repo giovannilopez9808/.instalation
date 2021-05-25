@@ -28,7 +28,7 @@ Repositorio con shell's script y python's scripts que realiza la instalación de
 - **install_mendeley.sh**:
   Realiza la instalación de Mendeley a partir del .deb.
 
-- **install_teamviewer.sh**:
+- **install_teamviewer.sh**:\\
   Realiza la instalación de teamviewer a partir del .deb.
 
 - **install_package.py**:
