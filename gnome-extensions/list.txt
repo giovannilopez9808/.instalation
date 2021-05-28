@@ -1,7 +1,0 @@
-pop-shell@system76.com
-hidetopbar@mathieu.bidon.ca
-disableworkspaceanim@owilliams.mixxx.org
-disable-workspace-switcher-popup@github.com
-unlockDialogBackground@sun.wxg@gmail.com
-pixel-saver@deadalnix.me
-ubuntu-appindicators@ubuntu.com

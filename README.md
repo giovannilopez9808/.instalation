@@ -8,40 +8,29 @@ Repositorio con shell's script y python's scripts que realiza la instalación de
 
   Ejecuta la actualización de los paquetes que se encuentran en al termino de la instalación de ubuntu e instala el controlador de paquetes pip de python3 y realizá la instalación de la libreria numpy.
 
-- **install_pop_shell.sh**:
+- **custom_ubuntu**
 
-  Realiza la instalación de el windows manager pop-shell.
+  Carpeta que contiene gnome-extensions, gnome_terminal_profile y los keybinding
 
-- **install_pop_shell_shortcuts.sh**:
+- **install_oh_my_zsh**
 
-  Realiza la instalación de los shortcuts de pop-shell.
+  Carpeta que contiene el instalador de oh-my-zsh y sus plugins: zsh-syntax-highlighting y zsh-autosuggestions.
 
-- **install_zsh.sh**:
+- **install_package_python**
 
-  Realiza la instalación de el ambiente oh-my-zsh y lo establece como ambiente predeterminado en la terminal.
+  Carpeta que instala los paquetes de python enlistados en el archivo package_python3.csv
 
-- **install_zsh_plugins.sh**:
+- **install_package_ubuntu**
 
-  Realiza la instalación de los plugins
+  Carpeta que instala los paquetes de ubuntu a partir del archivo package_list.csv
 
-  - zsh-syntax-highlighting.
-  - zsh-autosuggestions.
+- **install_programs**
 
-- **install_hydrapaper.sh**:
+  Carpeta que contiene el instalador se programas que no se pueden instalar por medio de apt.
 
-  Realiza la instalación de el configurador de wallpapers.
+- **install_window_manager**
 
-- **install_mendeley.sh**:
-
-  Realiza la instalación de Mendeley a partir del .deb.
-
-- **install_teamviewer.sh**:
-
-  Realiza la instalación de teamviewer a partir del .deb.
-
-- **install_package.py**:
-
-  Realiza la instalación de los paquete de Ubuntu con el uso de python3.
+  Carpeta que contiene el instalador del windows managaer pop_shell y sus shortcuts.
 
 ## Uso
 

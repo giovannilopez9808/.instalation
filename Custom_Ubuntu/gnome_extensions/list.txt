@@ -1,0 +1,8 @@
+no-workspace-switcher-popup@devbury.com
+disableworkspaceanim@owilliams.mixxx.org
+pop-shell@system76.com
+hidetopbar@mathieu.bidon.ca
+pixel-saver@deadalnix.me
+desktop-icons@csoriano
+ubuntu-appindicators@ubuntu.com
+native-window-placement@gnome-shell-extensions.gcampax.github.com
