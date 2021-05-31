@@ -5,4 +5,11 @@ hidetopbar@mathieu.bidon.ca
 pixel-saver@deadalnix.me
 desktop-icons@csoriano
 ubuntu-appindicators@ubuntu.com
-native-window-placement@gnome-shell-extensions.gcampax.github.com
+native-window-placement@gnome-shell-extensions.gcampax.github.compop-shell@system76.com
+hidetopbar@mathieu.bidon.ca
+disableworkspaceanim@owilliams.mixxx.org
+disable-workspace-switcher-popup@github.com
+unlockDialogBackground@sun.wxg@gmail.com
+pixel-saver@deadalnix.me
+ubuntu-appindicators@ubuntu.com
+windowsNavigator@gnome-shell-extensions.gcampax.github.com
