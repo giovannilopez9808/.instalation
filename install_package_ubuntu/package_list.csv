@@ -7,7 +7,6 @@ hdfview
 jupyter-core					
 jupyter-nbextension-jupyter-js-widgets		
 jupyter-notebook
-texlive-full
 stow
 vlc
 xournal
