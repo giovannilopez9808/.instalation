@@ -6,11 +6,13 @@ packages = np.loadtxt(file,
                       dtype=str)
 len_packages = len(packages)
 for number, package in enumerate(packages):
+    text="Instalando paquete {}".format(package)
+    len_text=len(text)
     print("\n\n")
-    print("--"*20)
-    print("Instalando paquete {}".format(package))
+    print("-"*len_text)
+    print(text)
     print("Paquete numero {} de {}".format(number+1,
                                            len_packages))
-    print("--"*20)
+    print("-"*len_text)
     print("\n\n")
     os.system("sudo apt-get install {} -y".format(package))
