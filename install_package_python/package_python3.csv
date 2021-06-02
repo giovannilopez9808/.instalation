@@ -12,3 +12,6 @@ jupyterthemes
 numpy
 pandas
 Pillow
+scipy
+matplotlib
+scikit-learn
