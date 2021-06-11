@@ -1,3 +1,3 @@
-sudo apt-get install zsh git-core -y
+sudo apt-get install zsh git-core fonts-powerline -y
 wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | zsh
 chsh -s `which zsh`
