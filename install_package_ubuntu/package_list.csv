@@ -1,13 +1,9 @@
 texlive-full
 ffmpeg
-flatpak
 gfortran
 hdfview
 jupyter-core
 jupyter-nbextension-jupyter-js-widgets
 jupyter-notebook
-stow
 vlc
-xournal
 vim
-npm
