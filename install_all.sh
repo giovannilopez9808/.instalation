@@ -15,7 +15,7 @@ cd ..
 cd programs
 ./vscode.sh
 ./mendeley.sh
-# ./hydrapaper.sh
+./hydrapaper.sh
 cd ..
 cd Custom_Ubuntu
 cd vscode
