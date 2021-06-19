@@ -1,0 +1,1 @@
+gsettings get org.gnome.shell enabled-extensions >> extensions.csv

@@ -3,7 +3,10 @@ ffmpeg
 gfortran
 hdfview
 jupyter-core
+jupyter_contrib_nbextensions
 jupyter-nbextension-jupyter-js-widgets
 jupyter-notebook
 vlc
 vim
+stow
+python3-pip

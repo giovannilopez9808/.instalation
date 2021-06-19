@@ -9,7 +9,3 @@ Carpeta que contiene el instalador se programas que no se pueden instalar por me
 - **install_mendeley.sh**:
 
   Realiza la instalación de Mendeley a partir del .deb.
-
-- **install_teamviewer.sh**:
-
-  Realiza la instalación de teamviewer a partir del .deb.

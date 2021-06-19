@@ -1,4 +1,3 @@
-pip3 install jupyter_contrib_nbextensions
 jupyter contrib nbextension install --user
 echo "----------------------------------------------------------------------------"
 echo "For more information plese visit"

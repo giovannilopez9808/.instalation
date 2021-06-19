@@ -1,13 +1,14 @@
-import numpy as np
 import os
 file = "package_list.csv"
-packages = np.loadtxt(file,
-                      usecols=0,
-                      dtype=str)
+packages = open(file,
+                "r")
+packages = packages.read()
+packages = packages.split("\n")
+packages = packages[:-1]
 len_packages = len(packages)
 for number, package in enumerate(packages):
-    text="Instalando paquete {}".format(package)
-    len_text=len(text)
+    text = "Instalando paquete {}".format(package)
+    len_text = len(text)
     print("\n\n")
     print("-"*len_text)
     print(text)
