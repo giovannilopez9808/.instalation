@@ -27,5 +27,4 @@ echo "Instalando Disable Workspace animation"
 echo
 echo "----------------------------------------------------"
 echo
-gsettings set org.gnome.desktop.interface enable-animations false
 gdbus call --session --dest org.gnome.Shell --object-path /org/gnome/Shell --method org.gnome.Shell.Eval 'Meta.restart(_("Restarting…"))'
