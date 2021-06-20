@@ -1,6 +1,7 @@
 texlive-full
 ffmpeg
 gfortran
+curl
 hdfview
 jupyter-core
 jupyter_contrib_nbextensions
