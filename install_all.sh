@@ -30,6 +30,8 @@ echo
 cd cargo_package
 ./install.sh
 cd ..
+export PATH=$HOME'/.cargo/bin':$PATH
+
 
 echo "------------------------------------------"
 echo
