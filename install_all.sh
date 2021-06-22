@@ -23,6 +23,16 @@ cd ..
 echo
 echo "------------------------------------------"
 echo
+echo "Instalando paquetes de Cargo"
+echo
+echo "------------------------------------------"
+echo
+cd cargo_package
+./install.sh
+cd ..
+
+echo "------------------------------------------"
+echo
 echo "Instalando librerias de Python"
 echo 
 echo "------------------------------------------"
