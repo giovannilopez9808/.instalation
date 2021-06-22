@@ -177,7 +177,26 @@ echo "------------------------------------------"
 echo
 cd keybindings
 ./put_keyshortcuts.sh
+cd ../
+
+echo
+echo "------------------------------------------"
+echo
+echo "Instalando Dracula Theme"
+echo
+echo "------------------------------------------"
+echo
+cd Dracula_theme
+cd Gnome_terminal
+./install.sh
 cd ..
+cd GTK
+./install.sh
+cd ..
+cd vscode
+./install
+cd ../../../
+
 
 echo
 echo "------------------------------------------"
