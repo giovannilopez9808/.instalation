@@ -6,5 +6,5 @@ gsettings set org.gnome.desktop.interface gtk-theme "Dracula"
 gsettings set org.gnome.desktop.wm.preferences theme "Dracula"
 wget https://github.com/dracula/gtk/files/5214870/Dracula.zip
 unzip Dracula.zip
-rm -rf Dracula
+rm Dracula.zip
 sudo mv Dracula /usr/share/icons/
