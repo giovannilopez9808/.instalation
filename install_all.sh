@@ -1,191 +1,111 @@
+print(){
+    echo
+    echo "---------------------------------------"
+    echo
+    echo $1
+    echo
+    echo "---------------------------------------"
+    echo
+}
 sudo apt-get update
 sudo apt-get upgrade -y
-echo
-echo "------------------------------------------"
-echo
-echo "Añadiendo /.local/bin al path"
-echo 
-echo "------------------------------------------"
-echo
+print "Añadiendo /.local/bin al path"
 export PATH=$HOME'/.local/bin':$PATH
 
-echo
-echo "------------------------------------------"
-echo
-echo "Instalando paquetes de Ubuntu"
-echo 
-echo "------------------------------------------"
-echo
+print "Instalando paquetes de Ubuntu"
 cd ubuntu_package
 python3 install_package.py
 cd ..
 
-echo
-echo "------------------------------------------"
-echo
-echo "Instalando paquetes de Cargo"
-echo
-echo "------------------------------------------"
-echo
+
+print "Instalando paquetes de Cargo"
 cd cargo_package
 ./install.sh
 cd ..
 export PATH=$HOME'/.cargo/bin':$PATH
 
 
-echo "------------------------------------------"
-echo
-echo "Instalando librerias de Python"
-echo 
-echo "------------------------------------------"
-echo
+print "Instalando librerias de Python"
 cd python_package
 ./install_package_list.sh
 cd ..
 
-echo
-echo "------------------------------------------"
-echo
-echo "Instalando Pop shell tiling windows manager"
-echo 
-echo "------------------------------------------"
-echo
+
+print "Instalando Pop shell tiling windows manager"
 cd tiling_window_manager
 ./install_pop_shell.sh
 cd ..
 
-echo
-echo "------------------------------------------"
-echo
-echo "Instalando extensiones de Jupyter"
-echo 
-echo "------------------------------------------"
-echo
+
+print "Instalando extensiones de Jupyter"
 cd jupyter_extensions
 ./install_jupyter_extensions.sh
 cd ..
 cd programs
 
-echo
-echo "------------------------------------------"
-echo
-echo "Instalando Mendeley"
-echo 
-echo "------------------------------------------"
-echo
+
+print "Instalando Mendeley"
 ./mendeley.sh
 
-echo
-echo "------------------------------------------"
-echo 
-echo "Instalando Hydrapaper"
-echo
-echo "------------------------------------------"
-echo
+ 
+print "Instalando Hydrapaper"
 ./hydrapaper.sh
 
-echo
-echo "------------------------------------------"
-echo
-echo "Instalando Visual Studio Code"
-echo 
-echo "------------------------------------------"
-echo
+
+print "Instalando Visual Studio Code"
 ./vscode.sh
 cd ..
 
 cd Custom_Ubuntu
 
-echo
-echo "------------------------------------------"
-echo
-echo "Instalando Extensiones de VScode"
-echo 
-echo "------------------------------------------"
-echo
+
+print "Instalando Extensiones de VScode"
 cd vscode
 python3 Install_VScode_extensions.py
 cd ..
 
-echo
-echo "------------------------------------------"
-echo
-echo "Instalando Hide Title bar para gnome"
-echo 
-echo "------------------------------------------"
-echo
+
+print "Instalando Hide Title bar para gnome"
 cd terminal
 cd hide_title_bar
 ./hide_title_bar.sh
 cd ../..
 
-echo
-echo "------------------------------------------"
-echo
-echo "Instalando Oh my ZSH y sus plugins"
-echo 
-echo "------------------------------------------"
-echo
+
+print "Instalando Oh my ZSH y sus plugins"
 cd oh_my_zsh
 ./install.sh
 ./plugins.sh
 cd ..
 
-echo
-echo "------------------------------------------"
-echo
-echo "Instalando extensiones de Gnome"
-echo 
-echo "------------------------------------------"
-echo
+
+print "Instalando extensiones de Gnome"
 cd extensions 
 ./install.sh 
 cd ..
 
-echo
-echo "------------------------------------------"
-echo
-echo "Instalando Powerlevel"
-echo 
-echo "------------------------------------------"
-echo
+
+print "Instalando Powerlevel"
 cd powerlevel
 ./install.sh
-xdg-open MesloLGS_NF_Regular.ttf
-echo "Presiona enter cuando hayas instalado la tipografia" && read
 cd ..
 
 
-echo
-echo "------------------------------------------"
-echo
-echo "Estableciento tema de Gnome-Terminal"
-echo 
-echo "------------------------------------------"
-echo
+
+print "Estableciento tema de Gnome-Terminal"
 cd terminal
 cd profile
 ./put_gnome_terminal_profile.sh
 cd ../../
 
-echo
-echo "------------------------------------------"
-echo
-echo "Estableciento keybindings de Gnome"
-echo 
-echo "------------------------------------------"
-echo
+
+print "Estableciento keybindings de Gnome"
 cd keybindings
 ./put_keyshortcuts.sh
 cd ../
 
-echo
-echo "------------------------------------------"
-echo
-echo "Instalando Dracula Theme"
-echo
-echo "------------------------------------------"
-echo
+
+print "Instalando Dracula Theme"
 cd Dracula_theme
 cd Gnome_terminal
 ./install.sh
@@ -198,17 +118,14 @@ cd vscode
 cd ../../../
 
 
-echo
-echo "------------------------------------------"
-echo
-echo "Ultima actualizacion"
-echo 
-echo "------------------------------------------"
-echo
+
+print "Ultima actualizacion"
 sudo apt update 
 sudo apt upgrade -y
 sudo apt autoremove -y
-sudo apt autoclean -y
+sudo apt autoclean -y 
+
+echo
 echo "Ubuntu necesita reiniciar para que las aplicaciones"
 echo "se establezcan como predeterminadas."
 echo "¿Desea reiniciar ahora? [Y/n]"
