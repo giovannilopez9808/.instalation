@@ -14,3 +14,4 @@ python3-pip
 ipython3
 cargo
 npm
+curl
