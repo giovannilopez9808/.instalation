@@ -115,9 +115,15 @@ cd GTK
 cd ..
 cd vscode
 ./install
+cd ..
 cd ../../../
 
-
+print "Instalado Vim ,plugins y Dracula theme for Vim"
+./install.sh 
+cd ..
+cd Custom_Ubuntu/Dracula_theme/vim/
+./install.sh 
+cd ../../../
 
 print "Ultima actualizacion"
 sudo apt update 
