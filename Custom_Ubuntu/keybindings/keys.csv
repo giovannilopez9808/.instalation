@@ -194,3 +194,8 @@ org.gnome.settings-daemon.plugins.media-keys	keyboard-brightness-down-static	['X
 org.gnome.settings-daemon.plugins.media-keys	volume-down-precise-static	['<Shift>XF86AudioLowerVolume', '<Ctrl><Shift>XF86AudioLowerVolume']
 custom	'rofi'	'rofi -show run'	'<Alt>z'
 custom	'rofi search'	'rofi -lines 10 -padding 0 -show search -modi search:/bin/rofi-web-search.py -i -p \"Search: \"\n'	'<Alt>s'
+custom	'switch workspace 5'	'workspace-switcher 5'	'<Primary>KP_5'
+custom	'switch workspace 6'	'workspace-switcher 6'	'<Primary>KP_6'
+custom	'switch workspace 7'	'workspace-switcher 7'	'<Primary>KP_7'
+custom	'switch workspace 8'	'workspace-switcher 8'	'<Primary>KP_8'
+custom	'switch workspace 9'	'workspace-switcher 9'	'<Primary>KP_9'
