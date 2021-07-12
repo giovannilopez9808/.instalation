@@ -40,32 +40,32 @@ org.gnome.desktop.wm.keybindings	move-to-monitor-up	[]
 org.gnome.desktop.wm.keybindings	raise-or-lower	[]
 org.gnome.desktop.wm.keybindings	move-to-side-e	[]
 org.gnome.desktop.wm.keybindings	cycle-windows-backward	['<Shift><Alt>Escape']
-org.gnome.desktop.wm.keybindings	switch-to-workspace-1	['<Primary>KP_1']
+org.gnome.desktop.wm.keybindings	switch-to-workspace-1	['<Super>Home']
 org.gnome.desktop.wm.keybindings	move-to-monitor-right	['<Shift><Super>Right']
 org.gnome.desktop.wm.keybindings	switch-windows	['<Alt>Tab']
 org.gnome.desktop.wm.keybindings	panel-run-dialog	['<Alt>F2']
 org.gnome.desktop.wm.keybindings	switch-panels-backward	['<Shift><Control><Alt>Tab']
 org.gnome.desktop.wm.keybindings	unmaximize	[]
-org.gnome.desktop.wm.keybindings	switch-to-workspace-2	['<Primary>KP_2']
+org.gnome.desktop.wm.keybindings	switch-to-workspace-2	[]
 org.gnome.desktop.wm.keybindings	switch-applications	['<Super>Tab']
 org.gnome.desktop.wm.keybindings	switch-to-workspace-last	['<Super>End']
-org.gnome.desktop.wm.keybindings	move-to-workspace-1	['<Primary><Super>KP_1']
+org.gnome.desktop.wm.keybindings	move-to-workspace-1	['<Super><Shift>Home']
 org.gnome.desktop.wm.keybindings	move-to-corner-ne	[]
-org.gnome.desktop.wm.keybindings	switch-to-workspace-3	['<Primary>KP_3']
+org.gnome.desktop.wm.keybindings	switch-to-workspace-3	[]
 org.gnome.desktop.wm.keybindings	switch-to-workspace-up	['<Primary>Up']
 org.gnome.desktop.wm.keybindings	move-to-side-s	[]
 org.gnome.desktop.wm.keybindings	show-desktop	['<Primary><Super>d', '<Primary><Alt>d', '<Super>d']
 org.gnome.desktop.wm.keybindings	move-to-center	[]
-org.gnome.desktop.wm.keybindings	move-to-workspace-2	['<Primary><Super>KP_2']
+org.gnome.desktop.wm.keybindings	move-to-workspace-2	[]
 org.gnome.desktop.wm.keybindings	switch-to-workspace-left	[]
 org.gnome.desktop.wm.keybindings	switch-to-workspace-right	[]
 org.gnome.desktop.wm.keybindings	raise	[]
 org.gnome.desktop.wm.keybindings	move-to-corner-se	[]
 org.gnome.desktop.wm.keybindings	switch-to-workspace-10	[]
-org.gnome.desktop.wm.keybindings	switch-to-workspace-4	['<Primary>KP_4']
+org.gnome.desktop.wm.keybindings	switch-to-workspace-4	[]
 org.gnome.desktop.wm.keybindings	toggle-shaded	[]
 org.gnome.desktop.wm.keybindings	cycle-group-backward	['<Shift><Alt>F6']
-org.gnome.desktop.wm.keybindings	move-to-workspace-3	['<Primary><Super>KP_3']
+org.gnome.desktop.wm.keybindings	move-to-workspace-3	[]
 org.gnome.desktop.wm.keybindings	switch-to-workspace-down	['<Primary>Down']
 org.gnome.desktop.wm.keybindings	cycle-panels-backward	['<Shift><Control><Alt>Escape']
 org.gnome.desktop.wm.keybindings	move-to-monitor-left	['<Shift><Super>Left']
@@ -73,7 +73,7 @@ org.gnome.desktop.wm.keybindings	switch-applications-backward	['<Shift><Super>Ta
 org.gnome.desktop.wm.keybindings	switch-to-workspace-11	[]
 org.gnome.desktop.wm.keybindings	switch-input-source-backward	['<Shift><Super>space', '<Shift>XF86Keyboard']
 org.gnome.desktop.wm.keybindings	switch-to-workspace-5	[]
-org.gnome.desktop.wm.keybindings	move-to-workspace-4	['<Primary><Super>KP_4']
+org.gnome.desktop.wm.keybindings	move-to-workspace-4	[]
 org.gnome.desktop.wm.keybindings	move-to-monitor-down	[]
 org.gnome.desktop.wm.keybindings	toggle-fullscreen	[]
 org.gnome.desktop.wm.keybindings	switch-to-workspace-6	[]
@@ -192,10 +192,14 @@ org.gnome.settings-daemon.plugins.media-keys	next-static	['XF86AudioNext', '<Ctr
 org.gnome.settings-daemon.plugins.media-keys	previous-static	['XF86AudioPrev', '<Ctrl>XF86AudioPrev']
 org.gnome.settings-daemon.plugins.media-keys	keyboard-brightness-down-static	['XF86KbdBrightnessDown']
 org.gnome.settings-daemon.plugins.media-keys	volume-down-precise-static	['<Shift>XF86AudioLowerVolume', '<Ctrl><Shift>XF86AudioLowerVolume']
-custom	'rofi'	'rofi -show run'	'<Alt>z'
+custom	'rofi'	'rofi -show drun'	'<Alt>z'
 custom	'rofi search'	'rofi -lines 10 -padding 0 -show search -modi search:/bin/rofi-web-search.py -i -p \"Search: \"\n'	'<Alt>s'
-custom	'switch workspace 5'	'workspace-switcher 5'	'<Primary>KP_5'
-custom	'switch workspace 6'	'workspace-switcher 6'	'<Primary>KP_6'
-custom	'switch workspace 7'	'workspace-switcher 7'	'<Primary>KP_7'
-custom	'switch workspace 8'	'workspace-switcher 8'	'<Primary>KP_8'
-custom	'switch workspace 9'	'workspace-switcher 9'	'<Primary>KP_9'
+custom	'switch workspace 5'	'workspace-switcher 4'	'<Primary>KP_5'
+custom	'switch workspace 6'	'workspace-switcher 5'	'<Primary>KP_6'
+custom	'switch workspace 7'	'workspace-switcher 6'	'<Primary>KP_7'
+custom	'switch workspace 8'	'workspace-switcher 7'	'<Primary>KP_8'
+custom	'switch workspace 9'	'workspace-switcher 8'	'<Primary>KP_9'
+custom	'switch workspace 1'	'workspace-switcher 0'	'<Primary>KP_1'
+custom	'switch workspace 2'	'workspace-switcher 1'	'<Primary>KP_2'
+custom	'switch workspace 3'	'workspace-switcher 2'	'<Primary>KP_3'
+custom	'switch workspace 4'	'workspace-switcher 3'	'<Primary>KP_4'
