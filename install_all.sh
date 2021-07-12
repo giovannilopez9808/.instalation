@@ -98,6 +98,15 @@ cd profile
 ./put_gnome_terminal_profile.sh
 cd ../../
 
+print "Instalando rofi web search"
+cd rofi 
+./install.sh
+cd ..
+
+print "Instalando Workspace switcher"
+cd Workspaces
+./install.sh
+cd ..
 
 print "Estableciento keybindings de Gnome"
 cd keybindings
@@ -116,14 +125,15 @@ cd ..
 cd vscode
 ./install
 cd ..
-cd ../../../
+cd rofi
+./install.sh
+cd ..
 
 print "Instalado Vim ,plugins y Dracula theme for Vim"
+cd vim
 ./install.sh 
 cd ..
-cd Custom_Ubuntu/Dracula_theme/vim/
-./install.sh 
-cd ../../../
+cd ../../
 
 print "Ultima actualizacion"
 sudo apt update 
