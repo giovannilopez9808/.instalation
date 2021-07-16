@@ -1,0 +1,14 @@
+#!/usr/bin/bash
+print(){
+	echo -e "  ✅ "$1
+}
+sudo -v
+echo "  Iniciando actualización"
+sudo apt-get update -qq
+print "Paquetes actualizados"
+print "Instalando actualizaciones"
+sudo apt-get upgrade -y -qq
+print "Removiendo paquetes innecesarios"
+sudo apt-get autoremove -y -qq
+print "Limpiando archivos residuales"
+sudo apt-get autoclean -y -qq
