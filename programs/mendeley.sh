@@ -1,4 +1,4 @@
-wget https://www.mendeley.com/repositories/ubuntu/stable/amd64/mendeleydesktop-latest
+wget https://www.mendeley.com/repositories/ubuntu/stable/amd64/mendeleydesktop-latest -q
 sudo dpkg -i mendeleydesktop-latest
 rm mendeleydesktop-latest
-sudo apt --fix-broken install
+sudo apt-get --fix-broken -qq install
