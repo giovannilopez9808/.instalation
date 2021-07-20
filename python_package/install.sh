@@ -1,1 +1,1 @@
-pip3 install -r package_python.csv
+pip3 install -q -r package_python.csv
