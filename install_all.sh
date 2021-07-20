@@ -1,123 +1,109 @@
+#!/usr/bin/bash
 print(){
-    echo
-    echo "---------------------------------------"
-    echo
-    echo $1
-    echo
-    echo "---------------------------------------"
-    echo
+    echo -e " ✅ "$1
 }
-sudo apt-get update
-sudo apt-get upgrade -y
-print "Añadiendo /.local/bin al path"
-export PATH=$HOME'/.local/bin':$PATH
+# sudo apt-get -qq update
+# sudo apt-get -qq upgrade -y
+# export PATH=$HOME'/.local/bin':$PATH
+# print "Se ha añadiido /.local/bin al path"
 
-print "Instalando paquetes de Ubuntu"
 cd ubuntu_package
 python3 install_package.py
 cd ..
+print "Paquetes de Ubuntu instalados"
+
+# cd cargo_package
+# ./install.sh
+# cd ..
+# print "Paquetes de Cargo instalados"
+# export PATH=$HOME'/.cargo/bin':$PATH
+
+# cd python_package
+# ./install.sh
+# cd ..
+# print "Librerias de Python instaladas"
+
+# cd tiling_window_manager
+# ./install_pop_shell.sh
+# cd ..
+# print "Pop shell tiling windows manager instalado"
 
 
-print "Instalando paquetes de Cargo"
-cd cargo_package
-./install.sh
-cd ..
-export PATH=$HOME'/.cargo/bin':$PATH
+# cd jupyter_extensions
+# ./install_jupyter_extensions.sh
+# cd ..
+# print "Extensiones de Jupyter instalados"
 
 
-print "Instalando librerias de Python"
-cd python_package
-./install_package_list.sh
-cd ..
+# cd programs
+# ./mendeley.sh
+# print "Mendeley instalado"
 
+# ./hydrapaper.sh
+# print "Hydrapaper instalado"
 
-print "Instalando Pop shell tiling windows manager"
-cd tiling_window_manager
-./install_pop_shell.sh
-cd ..
+# ./vscode.sh
+# print "Visual Studio Code instalado"
 
+# ./heroku.sh
+# print "Heroku Cli instalado"
+# cd ..
 
-print "Instalando extensiones de Jupyter"
-cd jupyter_extensions
-./install_jupyter_extensions.sh
-cd ..
-cd programs
-
-
-print "Instalando Mendeley"
-./mendeley.sh
-
- 
-print "Instalando Hydrapaper"
-./hydrapaper.sh
-
-
-print "Instalando Visual Studio Code"
-./vscode.sh
-cd ..
 
 cd Custom_Ubuntu
-
-
-print "Instalando Extensiones de VScode"
 cd vscode
-python3 Install_VScode_extensions.py
+python install.py
 cd ..
+print "Extensiones de VScode instaladas"
 
 
-print "Instalando Hide Title bar para gnome"
 cd terminal
 cd hide_title_bar
 ./hide_title_bar.sh
+print "Hide Title bar para gnome instalado"
 cd ../..
 
-
-print "Instalando Oh my ZSH y sus plugins"
 cd oh_my_zsh
 ./install.sh
 ./plugins.sh
 cd ..
+print "Oh my ZSH instalado"
 
-
-print "Instalando extensiones de Gnome"
 cd extensions 
 ./install.sh 
+print "Extensiones de Gnome instalado"
 cd ..
 
-
-print "Instalando Powerlevel"
 cd powerlevel
 ./install.sh
 cd ..
+print "Powerlevel instalado"
 
-
-
-print "Estableciento tema de Gnome-Terminal"
 cd terminal
 cd profile
 ./put_gnome_terminal_profile.sh
+print "Tema de Gnome-Terminal establecido"
 cd ../../
 
-print "Instalando rofi web search"
 cd rofi 
 ./install.sh
+print "Rofi web search instalado"
 cd ..
 
-print "Instalando Workspace switcher"
 cd Workspaces
 ./install.sh
+print "Workspace switcher instalado"
 cd ..
 
-print "Estableciento keybindings de Gnome"
 cd keybindings
 ./put_keyshortcuts.sh
+print "keybindings de Gnome establecidos"
 cd ../
 
-
-print "Instalando Dracula Theme"
 cd Dracula_theme
 cd Gnome_terminal
 ./install.sh
+print "Dracula Theme instalado"
 cd ..
 cd GTK
 ./install.sh

@@ -10,12 +10,9 @@ print(){
 print "Descargando plugins Vim"
 mkdir -p ~/.vim/undodir
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
-    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-cd ~/.vim/plugged/YouCompleteMe 
-python install.py 
-cd -
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim -s
 
 print "Instalando Prettier"
 mkdir -p ~/.vim/pack/plugins/start
-git clone https://github.com/prettier/vim-prettier ~/.vim/pack/plugins/start/vim-prettier
+git clone https://github.com/prettier/vim-prettier ~/.vim/pack/plugins/start/vim-prettier -q
 
