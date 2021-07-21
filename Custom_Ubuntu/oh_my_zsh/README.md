@@ -12,3 +12,5 @@ Carpeta que contiene el instalador de oh-my-zsh y sus plugins: zsh-syntax-highli
 
   - zsh-syntax-highlighting.
   - zsh-autosuggestions.
+
+![zsh](https://i.imgur.com/wyBVZQy.gif)
