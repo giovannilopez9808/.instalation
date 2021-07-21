@@ -6,7 +6,7 @@ extensions = extensions.read()
 extensions = extensions.split("\n")
 extensions = extensions[:-1]
 for extension in extensions:
-    text = "\tExtension {} de vscode instalada ✅".format(extension)
+    text = "✅ Extension {} de vscode instalada".format(extension)
     print(text)
     os.system("code --install-extension {} >> output".format(extension))
 os.system("rm output")
