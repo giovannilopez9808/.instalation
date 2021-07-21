@@ -1,3 +1,4 @@
+#!/usr/bin/bash
 print(){
   echo "✅ "$1
 }
