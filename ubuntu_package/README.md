@@ -1,8 +1,8 @@
-## install_package_ubuntu
+## Paquetes de Ubuntu necesarios
 
 Carpeta que instala los paquetes de ubuntu a partir del archivo package_list.csv
 
-- **install_package.py**
+- **install.py**
 
   Instalador del los paquetes de Ubuntu, puede tardar en que termine el script.
 
