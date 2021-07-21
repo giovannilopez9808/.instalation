@@ -1,18 +1,9 @@
 print(){
-  echo
-  echo "---------------------------------------"
-  echo
-  echo $1
-  echo
-  echo "---------------------------------------"
-  echo
+  echo "✅ "$1
 }
-print "Descargando plugins Vim"
 mkdir -p ~/.vim/undodir
-curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
-    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim -s
-
-print "Instalando Prettier"
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim -s
+print "Vim Plugins se ha instalado"
 mkdir -p ~/.vim/pack/plugins/start
 git clone https://github.com/prettier/vim-prettier ~/.vim/pack/plugins/start/vim-prettier -q
-
+print "Vim Prettier se ha instalado"
