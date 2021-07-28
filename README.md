@@ -20,13 +20,14 @@ git clone https://github.com/giovannilopez9808/.instalation_ubuntu .instalation
 
   Contiene las librerias de ubuntu que uso en mi maquina. Los paquetes se encuentran enlistados en el archivo `list.csv`.
 
-- **install_oh_my_zsh**
+- **cargo_package**
 
-  Carpeta que contiene el instalador de oh-my-zsh y sus plugins: zsh-syntax-highlighting y zsh-autosuggestions.
+  Contiene los paquetes de cargo. Especialmente, exa, el cual remplaza la familia de comandos ls.
 
-- **install_package_python**
+- **pop_shell**
 
-  Carpeta que instala los paquetes de python enlistados en el archivo package_python3.csv
+  Tiling windows manager usado en Pop Os. [GitHub](https://github.com/pop-os/shell)
+  ![pop_shell](https://raw.githubusercontent.com/pop-os/shell/master/screenshot.webp)
 
 - **install_package_ubuntu**
 
