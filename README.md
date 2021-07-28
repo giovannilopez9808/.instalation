@@ -17,9 +17,9 @@ git clone https://github.com/giovannilopez9808/.instalation_ubuntu .instalation
 
   Contiene los paquetes de ubuntu que tengo instalados en mi maquina. Los paquetes se encuentran enlistados en el archivo `list.csv`.
 
-- **custom_ubuntu**
+- **python_package**
 
-  Carpeta que contiene gnome-extensions, gnome_terminal_profile y los keybinding
+  Contiene las librerias de ubuntu que uso en mi maquina. Los paquetes se encuentran enlistados en el archivo `list.csv`.
 
 - **install_oh_my_zsh**
 
