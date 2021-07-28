@@ -4,7 +4,7 @@ Carpeta que instala los paquetes de ubuntu a partir del archivo package_list.csv
 
 #### Ejecución
 
-```bash
+```console
 python install.py
 ```
 
@@ -15,7 +15,7 @@ python install.py
   Instalador del los paquetes de Ubuntu, puede tardar en que termine el script.
 
 - **Paquetes a instalar**
-  ```bash
+  ```console
   texlive-full
   ffmpeg
   gfortran

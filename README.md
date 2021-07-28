@@ -44,12 +44,12 @@ git clone https://github.com/giovannilopez9808/.instalation_ubuntu .instalation
 
 Para los archivos `.sh` se ejecutan de la siguiente manera:
 
-```bash
+```console
 ./nombre_del_instalador.sh
 ```
 
 En el caso de los archivos `.py` se usa el siguiente comando:
 
-```bash
+```console
 python nombre_del_script_.py
 ```

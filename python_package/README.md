@@ -4,7 +4,7 @@ Carpeta que instala los paquetes de python enlistados en el archivo package_pyth
 
 ### Ejecución
 
-```bash
+```console
 ./install.sh
 ```
 
@@ -16,7 +16,7 @@ Carpeta que instala los paquetes de python enlistados en el archivo package_pyth
 
 - **Paquetes a instalar**:
 
-```bash
+```console
 Flask
 h5py
 imageio
