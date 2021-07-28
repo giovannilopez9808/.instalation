@@ -6,7 +6,7 @@ Shell scripts y python scripts que realizan la instalación de paquetes y progra
 
 ### Descarga del repositorio
 
-```console
+```zsh
 git clone https://github.com/giovannilopez9808/.instalation_ubuntu .instalation
 ```
 
