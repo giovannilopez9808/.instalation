@@ -2,6 +2,14 @@
 
 Carpeta que instala los paquetes de ubuntu a partir del archivo package_list.csv
 
+#### Ejecución
+
+```bash
+python install.py
+```
+
+### Contenido
+
 - **install.py**
 
   Instalador del los paquetes de Ubuntu, puede tardar en que termine el script.

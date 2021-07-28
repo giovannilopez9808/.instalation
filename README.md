@@ -1,12 +1,21 @@
-# Instalación de paquetes de Ubuntu 20.04
+# Instalación de paquetes y programas para Ubuntu 20.04
 
-Repositorio con shell's script y python's scripts que realiza la instalación de paquetes y programas que uso normalmente.
+### Descripción
 
-## Descripción
+Shell scripts y python scripts que realizan la instalación de paquetes y programas que uso normalmente en mi estación de trabajo.
 
-- **install_init.sh**:
+### Descarga del repositorio
 
-  Ejecuta la actualización de los paquetes que se encuentran en al termino de la instalación de ubuntu e instala el controlador de paquetes pip de python3 y realizá la instalación de la libreria numpy.
+```bash
+git clone https://github.com/giovannilopez9808/.instalation_ubuntu .instalation
+
+```
+
+#### Orden de instalación recomendado
+
+- **ubuntu_package**:
+
+  Contiene los paquetes de ubuntu que tengo instalados en mi maquina. Los paquetes se encuentran enlistados en el archivo `list.csv`.
 
 - **custom_ubuntu**
 
