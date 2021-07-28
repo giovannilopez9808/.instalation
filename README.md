@@ -22,11 +22,12 @@ git clone https://github.com/giovannilopez9808/.instalation_ubuntu .instalation
 
 - **cargo_package**
 
-  Contiene los paquetes de cargo. Especialmente, exa, el cual remplaza la familia de comandos ls.
+  Contiene los paquetes de cargo. Especialmente, exa, el cual remplaza la familia de comandos ls. [GitHub de Exa](https://github.com/ogham/exa)
+  ![exa_package](https://raw.githubusercontent.com/ogham/exa/master/screenshots.png)
 
 - **pop_shell**
 
-  Tiling windows manager usado en Pop Os. [GitHub](https://github.com/pop-os/shell)
+  Tiling windows manager usado en Pop Os. [GitHub de Pop Shell](https://github.com/pop-os/shell)
   ![pop_shell](https://raw.githubusercontent.com/pop-os/shell/master/screenshot.webp)
 
 - **install_package_ubuntu**
