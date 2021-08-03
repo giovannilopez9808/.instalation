@@ -18,4 +18,5 @@ curl
 cmake
 r-base
 rofi
-xclip
+xcli
+valgrind
