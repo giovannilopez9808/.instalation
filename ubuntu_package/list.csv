@@ -20,3 +20,4 @@ r-base
 rofi
 xcli
 valgrind
+libcairo2-dev
