@@ -21,3 +21,4 @@ rofi
 xcli
 valgrind
 libcairo2-dev
+gnuplot
