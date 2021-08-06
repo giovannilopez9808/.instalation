@@ -4,7 +4,6 @@ gfortran
 curl
 hdfview
 jupyter-core
-jupyter_contrib_nbextensions
 jupyter-nbextension-jupyter-js-widgets
 jupyter-notebook
 vlc
@@ -18,7 +17,7 @@ curl
 cmake
 r-base
 rofi
-xcli
+xclip
 valgrind
 libcairo2-dev
 gnuplot
