@@ -1,2 +1,2 @@
 #!/usr/bin/bash
-pip3 install -q -r list.csv
+pip3 install -r list.csv
