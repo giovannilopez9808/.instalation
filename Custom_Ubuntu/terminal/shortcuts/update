@@ -4,11 +4,11 @@ print(){
 }
 sudo -v
 echo "  Iniciando actualización"
-sudo apt-get update -qq
+sudo apt-get update
 print "Paquetes actualizados"
 print "Instalando actualizaciones"
-sudo apt-get upgrade -y -qq
+sudo apt-get upgrade -y
 print "Removiendo paquetes innecesarios"
-sudo apt-get autoremove -y -qq
+sudo apt-get autoremove -y
 print "Limpiando archivos residuales"
-sudo apt-get autoclean -y -qq
+sudo apt-get autoclean -y
