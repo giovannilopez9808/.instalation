@@ -132,7 +132,7 @@ org.gnome.settings-daemon.plugins.media-keys	window-screenshot	['<Alt>Print']
 org.gnome.settings-daemon.plugins.media-keys	power	[]
 org.gnome.settings-daemon.plugins.media-keys	play	[]
 org.gnome.settings-daemon.plugins.media-keys	power-static	['XF86PowerOff']
-org.gnome.settings-daemon.plugins.media-keys	terminal	['<Primary>Return']
+org.gnome.settings-daemon.plugins.media-keys	terminal	[]
 org.gnome.settings-daemon.plugins.media-keys	volume-down-static	['XF86AudioLowerVolume', '<Ctrl>XF86AudioLowerVolume']
 org.gnome.settings-daemon.plugins.media-keys	keyboard-brightness-up	[]
 org.gnome.settings-daemon.plugins.media-keys	playback-forward	[]
@@ -203,3 +203,4 @@ custom	'workspace-switcher 6'	'workspace-switcher 5'	'<Primary>6'
 custom	'workspace-switcher 7'	'workspace-switcher 6'	'<Primary>7'
 custom	'workspace-switcher 8'	'workspace-switcher 7'	'<Primary>8'
 custom	'workspace-switcher 9'	'workspace-switcher 8'	'<Primary>9'
+custom	'terminal'	'gnome-terminal'	'<Primary>Return'
