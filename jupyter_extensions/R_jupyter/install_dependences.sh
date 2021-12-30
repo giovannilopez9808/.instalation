@@ -1,3 +1,2 @@
-pip3 install --upgrade pip
-pip3 install jupyter
-sudo apt-get -y install libcurl4-gnutls-dev libxml2-dev libssl-dev
+sudo apt-get install libzmq3-dev libcurl4-openssl-dev libssl-dev jupyter-core jupyter-client
+firefox https://irkernel.github.io/installation/#linux-panel
