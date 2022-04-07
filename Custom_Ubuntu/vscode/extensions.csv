@@ -1,4 +1,3 @@
-CoenraadS.bracket-pair-colorizer-2
 esbenp.prettier-vscode
 James-Yu.latex-workshop
 krvajalm.linter-gfortran
@@ -8,5 +7,11 @@ ms-python.vscode-pylance
 ms-toolsai.jupyter
 ms-vscode.cpptools
 shd101wyy.markdown-preview-enhanced
+:q
+:q
+q
+
+
+
 sldobri.bunker
 dracula-theme.theme-dracula
