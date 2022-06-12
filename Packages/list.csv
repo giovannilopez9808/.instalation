@@ -8,6 +8,7 @@ jupyter-nbextension-jupyter-js-widgets
 jupyter-notebook
 vlc
 vim
+nvim
 stow
 python3-pip
 ipython3
@@ -15,12 +16,8 @@ cargo
 npm
 curl
 cmake
-r-base
 rofi
 xclip
-valgrind
-libcairo2-dev
 gnuplot
 libgtk2.0-dev
 libgtk-3-dev
-exuberant-ctags
