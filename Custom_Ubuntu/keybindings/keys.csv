@@ -35,7 +35,7 @@ org.gnome.desktop.wm.keybindings	move-to-corner-sw	[]
 org.gnome.desktop.wm.keybindings	move-to-workspace-9	[]
 org.gnome.desktop.wm.keybindings	maximize	['<Primary>m']
 org.gnome.desktop.wm.keybindings	panel-main-menu	['<Alt>F1']
-org.gnome.desktop.wm.keybindings	close	['<Super>q']
+org.gnome.desktop.wm.keybindings	close	['<Super>1']
 org.gnome.desktop.wm.keybindings	move-to-monitor-up	[]
 org.gnome.desktop.wm.keybindings	raise-or-lower	[]
 org.gnome.desktop.wm.keybindings	move-to-side-e	[]
@@ -203,5 +203,5 @@ custom	'workspace-switcher 6'	'workspace-switcher 5'	'<Primary>6'
 custom	'workspace-switcher 7'	'workspace-switcher 6'	'<Primary>7'
 custom	'workspace-switcher 8'	'workspace-switcher 7'	'<Primary>8'
 custom	'workspace-switcher 9'	'workspace-switcher 8'	'<Primary>9'
-custom	'sci-hub'	'bash -c \"firefox https://sci-hub.se/$(rofi -show -dmenu -p \"Sci-Hub\")\"\n'	'<Alt>q'
 custom	'terminal'	'kitty'	'<Primary>Return'
+custom	'scihub'	'bash -c \"rofi_scihub $(rofi -show -dmenu -p \"Sci-Hub\")\"'	'<Alt>q'
