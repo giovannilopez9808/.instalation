@@ -18,3 +18,6 @@ autopep8
 moviepy
 opencv-python
 tqdm
+neovim
+jedi
+pep8
