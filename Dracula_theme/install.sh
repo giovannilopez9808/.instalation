@@ -5,5 +5,5 @@ echo "✅ Añadiendo Flat-Remix-Blue-Light"
 wget https://github.com/dracula/gtk/archive/master.zip
 unzip master.zip
 mv gtk-master Dracula
-mv Dracula /usr/share/themes
+sudo mv Dracula /usr/share/themes
 rm master.zip
