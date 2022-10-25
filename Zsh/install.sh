@@ -5,7 +5,6 @@ chsh -s `which zsh`
 echo "✅ ZSH se ha instalado"
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
 echo "✅ Powerlevel se ha instalado"
-unzip Meslo.zip -d Meslo
-sudo mv Meslo /usr/share/fonts
+sudo cp Meslo /usr/share/fonts
 sudo fc-cache -f -v
 echo "✅ Se ha instalado powerlevel"
