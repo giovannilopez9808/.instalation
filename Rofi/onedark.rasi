@@ -18,7 +18,7 @@
   purple:     #7209b7;
   mangenta:   #d886f3;
   cyan:       #6cdcf7;
-  emphasis:   #50536b;
+  emphasis:   #6272a4;
   text:       #dfdfdf;
   text-alt:   #b2b2b2;
   fg:         #abb2bf;
@@ -27,14 +27,14 @@
   spacing: 0;
   background-color: transparent;
 
-  font: "Knack Nerd Font 20";
+  font: "Meslo Nerd Font 20";
   text-color: @text;
 }
 
 window {
   transparency: "real";
   fullscreen: true;
-  background-color: #282c34dd;
+  background-color: #282c34AA;
 }
 
 mainbox {
@@ -52,7 +52,6 @@ prompt {
 
 textbox-prompt-colon {
   expand: false;
-  str: ":";
   text-color: @text-alt;
 }
 
